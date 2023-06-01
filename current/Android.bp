@@ -1,5 +1,11 @@
 // This is auto-generated. DO NOT EDIT.
 
+// blueprint rules added by vendor/google/build/mainline_modules_sdks.py
+// to support coexistence.
+blueprint_package_includes {
+    match_all: ["com.android.mainline"]
+}
+
 // Soong config variable stanza added by vendor/google/build/mainline_modules_sdks.py.
 soong_config_module_type_import {
     from: "packages/modules/common/Android.bp",
