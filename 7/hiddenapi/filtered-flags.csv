@@ -16,9 +16,6 @@ Landroid/federatedcompute/FederatedComputeManager$FederatedComputeServiceConnect
 Landroid/federatedcompute/FederatedComputeManager$FederatedComputeServiceConnection;->onNullBinding(Landroid/content/ComponentName;)V,public-api,sdk,system-api,test-api
 Landroid/federatedcompute/FederatedComputeManager$FederatedComputeServiceConnection;->onServiceConnected(Landroid/content/ComponentName;Landroid/os/IBinder;)V,public-api,sdk,system-api,test-api
 Landroid/federatedcompute/FederatedComputeManager$FederatedComputeServiceConnection;->onServiceDisconnected(Landroid/content/ComponentName;)V,public-api,sdk,system-api,test-api
-Landroid/federatedcompute/ResultHandlingService$ResultHandlingCallback;->accept(Ljava/lang/Object;)V,core-platform-api,public-api,sdk,system-api,test-api
-Landroid/federatedcompute/ResultHandlingService;->onBind(Landroid/content/Intent;)Landroid/os/IBinder;,public-api,sdk,system-api,test-api
-Landroid/federatedcompute/ResultHandlingService;->onCreate()V,public-api,sdk,system-api,test-api
 Landroid/federatedcompute/aidl/IExampleStoreCallback$Default;->asBinder()Landroid/os/IBinder;,public-api,sdk,system-api,test-api
 Landroid/federatedcompute/aidl/IExampleStoreCallback$Stub$Proxy;->asBinder()Landroid/os/IBinder;,public-api,sdk,system-api,test-api
 Landroid/federatedcompute/aidl/IExampleStoreCallback$Stub;->asBinder()Landroid/os/IBinder;,public-api,sdk,system-api,test-api
@@ -43,10 +40,6 @@ Landroid/federatedcompute/aidl/IFederatedComputeService$Default;->asBinder()Land
 Landroid/federatedcompute/aidl/IFederatedComputeService$Stub$Proxy;->asBinder()Landroid/os/IBinder;,public-api,sdk,system-api,test-api
 Landroid/federatedcompute/aidl/IFederatedComputeService$Stub;->asBinder()Landroid/os/IBinder;,public-api,sdk,system-api,test-api
 Landroid/federatedcompute/aidl/IFederatedComputeService$Stub;->onTransact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z,public-api,sdk,system-api,test-api
-Landroid/federatedcompute/aidl/IResultHandlingService$Default;->asBinder()Landroid/os/IBinder;,public-api,sdk,system-api,test-api
-Landroid/federatedcompute/aidl/IResultHandlingService$Stub$Proxy;->asBinder()Landroid/os/IBinder;,public-api,sdk,system-api,test-api
-Landroid/federatedcompute/aidl/IResultHandlingService$Stub;->asBinder()Landroid/os/IBinder;,public-api,sdk,system-api,test-api
-Landroid/federatedcompute/aidl/IResultHandlingService$Stub;->onTransact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z,public-api,sdk,system-api,test-api
 Landroid/federatedcompute/common/ExampleConsumption$1;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;,public-api,sdk,system-api,test-api
 Landroid/federatedcompute/common/ExampleConsumption$1;->newArray(I)[Ljava/lang/Object;,public-api,sdk,system-api,test-api
 Landroid/federatedcompute/common/ExampleConsumption;->describeContents()I,public-api,sdk,system-api,test-api
