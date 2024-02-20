@@ -1,5 +1,4 @@
-android/adservices/ondevicepersonalization/**
+android/app/ondevicepersonalization/**
 android/federatedcompute/**
 android/ondevicepersonalization/**
-com/android/federatedcompute/internal/**
 com/android/ondevicepersonalization/internal/**
