@@ -45,11 +45,10 @@ java_sdk_library_import {
     licenses: ["ondevicepersonalization-module-sdk_Android-Apache-2.0"],
     shared_library: false,
     permitted_packages: [
-        "android.adservices.ondevicepersonalization",
+        "android.app.ondevicepersonalization",
         "android.ondevicepersonalization",
         "com.android.ondevicepersonalization.internal",
         "android.federatedcompute",
-        "com.android.federatedcompute.internal",
     ],
     public: {
         jars: ["sdk_library/public/framework-ondevicepersonalization-stubs.jar"],
