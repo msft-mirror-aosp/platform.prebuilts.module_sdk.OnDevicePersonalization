@@ -6,13 +6,16 @@ package {
     default_applicable_licenses: ["Android-Apache-2.0"],
 }
 
+apex_contributions_defaults {
+    name: "ondevicepersonalization-module-sdk.contributions",
+    contents: [
+        "prebuilt_framework-ondevicepersonalization",
+        "prebuilt_service-ondevicepersonalization",
+    ],
+}
+
 prebuilt_bootclasspath_fragment {
     name: "com.android.ondevicepersonalization-bootclasspath-fragment",
-    // Do not prefer prebuilt if the Soong config variable "module_build_from_source" in namespace "ANDROID" is true.
-    use_source_config_var: {
-        config_namespace: "ANDROID",
-        var_name: "module_build_from_source",
-    },
     visibility: ["//packages/modules/OnDevicePersonalization:__subpackages__"],
     apex_available: ["com.android.ondevicepersonalization"],
     licenses: ["ondevicepersonalization-module-sdk_Android-Apache-2.0"],
@@ -35,20 +38,17 @@ prebuilt_bootclasspath_fragment {
 
 java_sdk_library_import {
     name: "framework-ondevicepersonalization",
-    // Do not prefer prebuilt if the Soong config variable "module_build_from_source" in namespace "ANDROID" is true.
-    use_source_config_var: {
-        config_namespace: "ANDROID",
-        var_name: "module_build_from_source",
-    },
     visibility: ["//visibility:public"],
     apex_available: ["com.android.ondevicepersonalization"],
     licenses: ["ondevicepersonalization-module-sdk_Android-Apache-2.0"],
     shared_library: false,
     permitted_packages: [
-        "android.app.ondevicepersonalization",
+        "android.adservices.ondevicepersonalization",
         "android.ondevicepersonalization",
+        "com.android.adservices.ondevicepersonalization",
         "com.android.ondevicepersonalization.internal",
         "android.federatedcompute",
+        "com.android.federatedcompute.internal",
     ],
     public: {
         jars: ["sdk_library/public/framework-ondevicepersonalization-stubs.jar"],
@@ -78,11 +78,6 @@ java_sdk_library_import {
 
 java_sdk_library_import {
     name: "service-ondevicepersonalization",
-    // Do not prefer prebuilt if the Soong config variable "module_build_from_source" in namespace "ANDROID" is true.
-    use_source_config_var: {
-        config_namespace: "ANDROID",
-        var_name: "module_build_from_source",
-    },
     visibility: ["//visibility:public"],
     apex_available: ["com.android.ondevicepersonalization"],
     licenses: ["ondevicepersonalization-module-sdk_Android-Apache-2.0"],
@@ -115,11 +110,6 @@ license {
 
 prebuilt_systemserverclasspath_fragment {
     name: "com.android.ondevicepersonalization-systemserverclasspath-fragment",
-    // Do not prefer prebuilt if the Soong config variable "module_build_from_source" in namespace "ANDROID" is true.
-    use_source_config_var: {
-        config_namespace: "ANDROID",
-        var_name: "module_build_from_source",
-    },
     visibility: ["//packages/modules/OnDevicePersonalization:__subpackages__"],
     apex_available: ["com.android.ondevicepersonalization"],
     licenses: ["ondevicepersonalization-module-sdk_Android-Apache-2.0"],
