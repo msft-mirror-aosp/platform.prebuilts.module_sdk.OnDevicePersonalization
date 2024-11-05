@@ -76,12 +76,18 @@ Landroid/adservices/ondevicepersonalization/EventOutputParcel;->describeContents
 Landroid/adservices/ondevicepersonalization/EventOutputParcel;->writeToParcel(Landroid/os/Parcel;I)V,public-api,sdk,system-api,test-api
 Landroid/adservices/ondevicepersonalization/EventUrlProvider;->createEventTrackingUrlWithRedirect(Landroid/os/PersistableBundle;Landroid/net/Uri;)Landroid/net/Uri;,public-api,sdk,system-api,test-api
 Landroid/adservices/ondevicepersonalization/EventUrlProvider;->createEventTrackingUrlWithResponse(Landroid/os/PersistableBundle;[BLjava/lang/String;)Landroid/net/Uri;,public-api,sdk,system-api,test-api
+Landroid/adservices/ondevicepersonalization/ExecuteInIsolatedServiceRequest;->equals(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
+Landroid/adservices/ondevicepersonalization/ExecuteInIsolatedServiceRequest;->hashCode()I,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/adservices/ondevicepersonalization/ExecuteInput;->getAppPackageName()Ljava/lang/String;,public-api,sdk,system-api,test-api
 Landroid/adservices/ondevicepersonalization/ExecuteInput;->getAppParams()Landroid/os/PersistableBundle;,public-api,sdk,system-api,test-api
 Landroid/adservices/ondevicepersonalization/ExecuteInputParcel$1;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;,public-api,sdk,system-api,test-api
 Landroid/adservices/ondevicepersonalization/ExecuteInputParcel$1;->newArray(I)[Ljava/lang/Object;,public-api,sdk,system-api,test-api
 Landroid/adservices/ondevicepersonalization/ExecuteInputParcel;->describeContents()I,public-api,sdk,system-api,test-api
 Landroid/adservices/ondevicepersonalization/ExecuteInputParcel;->writeToParcel(Landroid/os/Parcel;I)V,public-api,sdk,system-api,test-api
+Landroid/adservices/ondevicepersonalization/ExecuteOptionsParcel$1;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;,public-api,sdk,system-api,test-api
+Landroid/adservices/ondevicepersonalization/ExecuteOptionsParcel$1;->newArray(I)[Ljava/lang/Object;,public-api,sdk,system-api,test-api
+Landroid/adservices/ondevicepersonalization/ExecuteOptionsParcel;->describeContents()I,public-api,sdk,system-api,test-api
+Landroid/adservices/ondevicepersonalization/ExecuteOptionsParcel;->writeToParcel(Landroid/os/Parcel;I)V,public-api,sdk,system-api,test-api
 Landroid/adservices/ondevicepersonalization/ExecuteOutput$Builder;-><init>()V,public-api,sdk,system-api,test-api
 Landroid/adservices/ondevicepersonalization/ExecuteOutput$Builder;->addEventLogRecord(Landroid/adservices/ondevicepersonalization/EventLogRecord;)Landroid/adservices/ondevicepersonalization/ExecuteOutput$Builder;,public-api,sdk,system-api,test-api
 Landroid/adservices/ondevicepersonalization/ExecuteOutput$Builder;->build()Landroid/adservices/ondevicepersonalization/ExecuteOutput;,public-api,sdk,system-api,test-api
@@ -105,6 +111,8 @@ Landroid/adservices/ondevicepersonalization/FederatedComputeInput$Builder;->setP
 Landroid/adservices/ondevicepersonalization/FederatedComputeInput;->equals(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/adservices/ondevicepersonalization/FederatedComputeInput;->getPopulationName()Ljava/lang/String;,public-api,sdk,system-api,test-api
 Landroid/adservices/ondevicepersonalization/FederatedComputeInput;->hashCode()I,core-platform-api,public-api,sdk,system-api,test-api
+Landroid/adservices/ondevicepersonalization/FederatedComputeScheduleRequest;->equals(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
+Landroid/adservices/ondevicepersonalization/FederatedComputeScheduleRequest;->hashCode()I,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/adservices/ondevicepersonalization/FederatedComputeScheduler$Params;-><init>(Landroid/adservices/ondevicepersonalization/TrainingInterval;)V,public-api,sdk,system-api,test-api
 Landroid/adservices/ondevicepersonalization/FederatedComputeScheduler$Params;->getTrainingInterval()Landroid/adservices/ondevicepersonalization/TrainingInterval;,public-api,sdk,system-api,test-api
 Landroid/adservices/ondevicepersonalization/FederatedComputeScheduler;->cancel(Landroid/adservices/ondevicepersonalization/FederatedComputeInput;)V,public-api,sdk,system-api,test-api
@@ -249,6 +257,8 @@ Landroid/adservices/ondevicepersonalization/OnDevicePersonalizationManager$1$$Ex
 Landroid/adservices/ondevicepersonalization/OnDevicePersonalizationManager$1$$ExternalSyntheticLambda1;->run()V,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/adservices/ondevicepersonalization/OnDevicePersonalizationManager$2$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/adservices/ondevicepersonalization/OnDevicePersonalizationManager$2$$ExternalSyntheticLambda1;->run()V,core-platform-api,public-api,sdk,system-api,test-api
+Landroid/adservices/ondevicepersonalization/OnDevicePersonalizationManager$3$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,sdk,system-api,test-api
+Landroid/adservices/ondevicepersonalization/OnDevicePersonalizationManager$3$$ExternalSyntheticLambda1;->run()V,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/adservices/ondevicepersonalization/OnDevicePersonalizationManager$ExecuteResult;->getOutputData()[B,public-api,sdk,system-api,test-api
 Landroid/adservices/ondevicepersonalization/OnDevicePersonalizationManager$ExecuteResult;->getSurfacePackageToken()Landroid/adservices/ondevicepersonalization/SurfacePackageToken;,public-api,sdk,system-api,test-api
 Landroid/adservices/ondevicepersonalization/OnDevicePersonalizationManager;->execute(Landroid/content/ComponentName;Landroid/os/PersistableBundle;Ljava/util/concurrent/Executor;Landroid/os/OutcomeReceiver;)V,public-api,sdk,system-api,test-api
