@@ -16,7 +16,7 @@ apex_contributions_defaults {
 
 prebuilt_bootclasspath_fragment {
     name: "com.android.ondevicepersonalization-bootclasspath-fragment",
-    visibility: ["//packages/modules/OnDevicePersonalization:__subpackages__"],
+    visibility: ["//visibility:public"],
     apex_available: ["com.android.ondevicepersonalization"],
     licenses: ["ondevicepersonalization-module-sdk_Android-Apache-2.0"],
     contents: ["framework-ondevicepersonalization"],
@@ -110,7 +110,7 @@ license {
 
 prebuilt_systemserverclasspath_fragment {
     name: "com.android.ondevicepersonalization-systemserverclasspath-fragment",
-    visibility: ["//packages/modules/OnDevicePersonalization:__subpackages__"],
+    visibility: ["//visibility:public"],
     apex_available: ["com.android.ondevicepersonalization"],
     licenses: ["ondevicepersonalization-module-sdk_Android-Apache-2.0"],
     contents: ["service-ondevicepersonalization"],
