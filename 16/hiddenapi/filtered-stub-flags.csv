@@ -292,6 +292,7 @@ Landroid/adservices/ondevicepersonalization/OnDevicePersonalizationManager$2$$Ex
 Landroid/adservices/ondevicepersonalization/OnDevicePersonalizationManager$2$$ExternalSyntheticLambda1;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/adservices/ondevicepersonalization/OnDevicePersonalizationManager$3$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/adservices/ondevicepersonalization/OnDevicePersonalizationManager$3$$ExternalSyntheticLambda1;->run()V,core-platform-api,public-api,system-api,test-api
+Landroid/adservices/ondevicepersonalization/OnDevicePersonalizationManager$4$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/adservices/ondevicepersonalization/OnDevicePersonalizationManager$ExecuteResult;->getOutputData()[B,public-api,system-api,test-api
 Landroid/adservices/ondevicepersonalization/OnDevicePersonalizationManager$ExecuteResult;->getSurfacePackageToken()Landroid/adservices/ondevicepersonalization/SurfacePackageToken;,public-api,system-api,test-api
 Landroid/adservices/ondevicepersonalization/OnDevicePersonalizationManager;->execute(Landroid/content/ComponentName;Landroid/os/PersistableBundle;Ljava/util/concurrent/Executor;Landroid/os/OutcomeReceiver;)V,public-api,system-api,test-api
@@ -456,6 +457,10 @@ Landroid/adservices/ondevicepersonalization/aidl/IFederatedComputeService$Defaul
 Landroid/adservices/ondevicepersonalization/aidl/IFederatedComputeService$Stub$Proxy;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
 Landroid/adservices/ondevicepersonalization/aidl/IFederatedComputeService$Stub;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
 Landroid/adservices/ondevicepersonalization/aidl/IFederatedComputeService$Stub;->onTransact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z,public-api,system-api,test-api
+Landroid/adservices/ondevicepersonalization/aidl/IIsFeatureEnabledCallback$Default;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
+Landroid/adservices/ondevicepersonalization/aidl/IIsFeatureEnabledCallback$Stub$Proxy;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
+Landroid/adservices/ondevicepersonalization/aidl/IIsFeatureEnabledCallback$Stub;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
+Landroid/adservices/ondevicepersonalization/aidl/IIsFeatureEnabledCallback$Stub;->onTransact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z,public-api,system-api,test-api
 Landroid/adservices/ondevicepersonalization/aidl/IIsolatedModelService$Default;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
 Landroid/adservices/ondevicepersonalization/aidl/IIsolatedModelService$Stub$Proxy;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
 Landroid/adservices/ondevicepersonalization/aidl/IIsolatedModelService$Stub;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
@@ -472,14 +477,6 @@ Landroid/adservices/ondevicepersonalization/aidl/IIsolatedServiceCallback$Defaul
 Landroid/adservices/ondevicepersonalization/aidl/IIsolatedServiceCallback$Stub$Proxy;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
 Landroid/adservices/ondevicepersonalization/aidl/IIsolatedServiceCallback$Stub;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
 Landroid/adservices/ondevicepersonalization/aidl/IIsolatedServiceCallback$Stub;->onTransact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z,public-api,system-api,test-api
-Landroid/adservices/ondevicepersonalization/aidl/IOnDevicePersonalizationConfigService$Default;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
-Landroid/adservices/ondevicepersonalization/aidl/IOnDevicePersonalizationConfigService$Stub$Proxy;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
-Landroid/adservices/ondevicepersonalization/aidl/IOnDevicePersonalizationConfigService$Stub;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
-Landroid/adservices/ondevicepersonalization/aidl/IOnDevicePersonalizationConfigService$Stub;->onTransact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z,public-api,system-api,test-api
-Landroid/adservices/ondevicepersonalization/aidl/IOnDevicePersonalizationConfigServiceCallback$Default;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
-Landroid/adservices/ondevicepersonalization/aidl/IOnDevicePersonalizationConfigServiceCallback$Stub$Proxy;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
-Landroid/adservices/ondevicepersonalization/aidl/IOnDevicePersonalizationConfigServiceCallback$Stub;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
-Landroid/adservices/ondevicepersonalization/aidl/IOnDevicePersonalizationConfigServiceCallback$Stub;->onTransact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z,public-api,system-api,test-api
 Landroid/adservices/ondevicepersonalization/aidl/IOnDevicePersonalizationDebugService$Default;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
 Landroid/adservices/ondevicepersonalization/aidl/IOnDevicePersonalizationDebugService$Stub$Proxy;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
 Landroid/adservices/ondevicepersonalization/aidl/IOnDevicePersonalizationDebugService$Stub;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
